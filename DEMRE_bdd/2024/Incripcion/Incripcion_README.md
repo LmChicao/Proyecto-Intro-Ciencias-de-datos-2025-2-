@@ -1,5 +1,7 @@
 # Datos que ofrece la pagina
 
+Archivos K y L: Cuestionario de Caracterización de la Experiencia Académica.Ambos archivos incluyen solamente la información de los matriculados por la vía regular a las distintas instituciones que son parte del sistema de admisión. Ambos archivos fueron filtrados considerando un mínimo de 8 matriculados por carrera, con el objetivo de resguardar la información de las y los postulantes. Los archivos K y L no son vinculables entre sí. Tampoco será posible vincularlos con otras bases publicadas por el DEMRE en el portal web.
+
 # Proceso, Tipo, Nombre, Descripcion
 
 Proceso de Admisión 2024	
