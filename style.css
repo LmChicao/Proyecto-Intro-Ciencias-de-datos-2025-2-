@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #ffffff;
-  color: #333;
+  background: linear-gradient(to right, #4CAF50, #ffffff);
+  color: black;
 }
 
 .container {
@@ -13,8 +13,8 @@ body {
 
 .left {
   flex: 1;
-  background-color: #4CAF50; /* verde tipo presentación */
-  color: white;
+   background: linear-gradient(to right, #4CAF50, #ffffff); /* verde tipo presentación */
+  color: black;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -34,6 +34,19 @@ body {
 h1 {
   font-size: 2em;
   margin-bottom: 20px;
+  color: black;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: rgb(37, 37, 37);
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
 }
 
 p, a {
