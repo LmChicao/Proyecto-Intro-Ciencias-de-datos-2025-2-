@@ -1,0 +1,56 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background-color: #4CAF50; /* verde tipo presentación */
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p, a {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.right a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.right a:hover {
+  text-decoration: underline;
+}
