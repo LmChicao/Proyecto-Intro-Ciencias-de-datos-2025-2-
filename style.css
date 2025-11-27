@@ -2,18 +2,20 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #4CAF50, #ffffff);
+  background: linear-gradient(to right, #4CAF50, #ffffff); 
   color: black;
+  
 }
 
 .container {
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Solo si es una sola sección */
 }
 
 .left {
   flex: 1;
-   background: linear-gradient(to right, #4CAF50, #ffffff); /* verde tipo presentación */
   color: black;
   padding: 40px;
   display: flex;
@@ -23,7 +25,6 @@ body {
 
 .right {
   flex: 1;
-  background-color: #ffffff;
   padding: 40px;
   display: flex;
   flex-direction: column;

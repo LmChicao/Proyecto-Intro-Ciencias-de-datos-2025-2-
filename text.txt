@@ -1,0 +1,153 @@
+<!-- index.html --> 
+<!-- Este es un comentario -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto PAES DEMRE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">            
+        <div class="left">
+            <h1>Proyecto Introducción a Ciencias de Datos</h1>
+            <p>Análisis datos DEMRE PAES (2023 - 2025)</p>
+        </div>
+
+        <div class="right">
+            <img src="logo_uc.png" alt="Logo UC" width="150">
+            <p><img src="ilustracion.png" alt="Ilustración" width="200"></p> 
+
+            <h2>Participantes del grupo </h2>
+            <p>Isidora Gómez</p>
+            <p>Ninoska Cid</p>
+            <p>Lucas Chicao</p>    
+            
+            <h3>>Indice</h3>
+            <div class="indice">
+                    <a href="#Contexto" class="btn">Contexto</a>
+                    <br><br>
+                    <a href="#Datos" class="btn">Datos</a>
+                    <br><br>
+                    <a href="#Procesos" class="btn">Procesos Aplicados</a>
+                    <br><br>
+                    <a href="#Graficos" class="btn">Graficos</a>
+                    <br><br>
+                    <a href="#Conclusion" class="btn">Conclusion</a>
+            </div>
+            
+        </div> 
+  </div>
+
+    <div class="container">
+        <div class="left">
+            <section id="Contexto">
+            </section>
+            <h1>Contexto</h1>
+            <h3>>Introducción</h3>
+
+                <h2>
+                Este proyecto investiga las desigualdades educativas en Chile mediante el análisis cuantitativo de resultados de la PAES (Prueba de Acceso a la Educación Superior) durante los años 2023-2025.
+                Utilizando técnicas de análisis estadístico inferencial y machine learning, cuantificamos las brechas entre estudiantes de colegios municipales, particulares subvencionados y particulares pagados.
+                </h2>
+
+            <h3>>Objetivos</h3>
+
+                <h2>>El objetivo de esta investigación es cuantificar las diferencias en rendimiento académico entre distintos tipos de establecimientos y evaluar la magnitud de las desigualdades educativas,
+                identificando a su vez los factores que influyen en el acceso a universidades tradicionales, todo esto con el fin de proporcionar evidencia para políticas públicas basadas en datos.
+                </h2>
+            
+        </div>
+
+        <div class="right">
+            
+        </div>
+        
+        
+    </div>
+    
+    <div class="container">
+            <div class="left">
+                
+                <section id="Datos">
+                </section>
+                <h1>Datos</h1>
+
+                    <h3>>Obtencion de datos</h3>
+                        <h2>
+                        Los datos los obtuvimos de la Base de datos del DEMRE desde el 2023 al 2025 
+                        <br><br>
+                        Despues de descargarlos los agrupados por año y los analizamos rapidamente para verificar que tenian 
+                        los archivos que venian en los comprimidos
+                        </h2>
+
+                        <h2>
+                        Este es el link del cual se pueden obtener los datos
+                        https://portal-transparencia.demre.cl/portal-base-datos
+                        </h2>
+
+                        <a href="https://portal-transparencia.demre.cl/portal-base-datos" class="btn">Haz click aqui para ir al sitio</a>
+
+                    <h3>>Filtro aplicado a los datos</h3>
+
+                        <h2>
+                        Dado que la base de datos esta con algunos filtros para asegurar la privacidad podemos llegar a considerar alguna desviacion o error en los datos que podria ser "no menor" en el caso de algunas tuplas especificas, sin embargo el mismo DEMRE afirma que estas "tuplas" afectadas por los metodos para aumentar la privacidad de datos no afectaran a las estadisticas. En cualquier caso se asume que exisitran casos "Imposibles" o casos donde una tupla no tenga sentido debido a la falta de informacion y por lo tanto podremos "descartarlas" si llegamos a hacer un analisis mas especificos
+                        </h2>
+
+                        <h2>
+                        El siguiente mensaje esta escrito por parte del DEMRE en el siguiente link : https://demre.cl/portales/filtros-aplicados-bases-datos
+                        </h2>
+                        
+
+                        <!-- Deja esto asi -->
+                        Filtros aplicados a las bases de datos
+                        <br><br>
+                        Junto con la innominación de los registros, a las bases de datos publicadas en esta plataforma se les ha aplicado una serie de filtros como parte de las medidas que permiten resguardar la privacidad de los datos de los participantes en el proceso de admisión a las universidades. Estos filtros corresponden a la eliminación de algunos registros y pretenden minimizar la posibilidad de que un postulante pueda ser identificado debido a su pertenencia a algún subgrupo poblacional muy pequeño. Respecto a los filtros aplicados, se consideran los siguientes:
+                        <br><br>
+                        1. Personas cuyo año de nacimiento se encuentre menos de 8 veces en la base de datos.
+                        <br><br>
+                        2. Personas cuyo año de egreso de la enseñanza media se encuentre menos de 8 veces en la base de datos.
+                        <br><br>
+                        3. Personas cuya comuna de domicilio se encuentre menos de 8 veces en la base de datos.
+                        <br><br>
+                        4. Personas cuya comuna de egreso se encuentre menos de 8 veces en la base de datos.
+                        <br><br>
+                        5. Personas cuya unidad educativa (RBD_ENS) se encuentre menos de 8 veces en la base de datos.
+                        <br><br>
+                        6. Personas cuyo país de nacimiento (o nacionalidad) se encuentre menos de 8 veces en la base de datos.
+                        <br><br>
+                        Es importante destacar que, si bien estos filtros generan una diferencia leve entre las cantidades totales que se puedan obtener desde estas bases de datos con respecto a los datos oficialmente publicados, esto no afecta a las tendencias generales del sistema de admisión. Por este motivo, las bases de datos pueden ser utilizadas sin problemas para realizar análisis estadísticos de diversos tipos sin afectar la calidad de los hallazgos y las conclusiones que de ellos se deriven.
+                        <!-- ------------- -->
+                        <br><br>
+            </div>
+
+            <div class="right">  
+            </div>
+
+        </div>
+
+    <div class="container">
+        <div class="left">
+
+        </div>
+
+        <div class="right">
+
+        </div>
+    </div>
+    
+    
+    
+    
+
+    
+        
+</body>
+
+
+
+
+
+</html>
